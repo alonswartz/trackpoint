@@ -21,15 +21,18 @@ labret cheek piercing (16G)
 
 ### Q: How do I identify the trackpoint pinout?
 
-- luck
+**With some luck, or a multimeter and a steady hand.**
+(A scope would be better, but unfortunately I don't have one).
 
-    - pinouts
+If you're lucky, someone has already identified the pinout of the
+trackpoint you have (see [pinouts][pinouts]), or at least a similar one.
 
-- multimeter
+If not, you'll need to identify the pinout yourself, here are some tips:
 
-    - largest tracer gnd
-    - second largest vcc
-    - reference to ptpm754 datasheet
+- The largest tracer is most likely GND.
+- The second largest tracer is most likely VCC.
+- Using a multimeter and the PTPM754 [datasheet][datasheets], test for
+  connectivity:
 
 ```
 CLK (INT0)    - PTPM754 pin 24
@@ -39,7 +42,7 @@ GND           - PTPM754 pin 8
 VCC           - PTPM754 pin 22
 ```
 
-- scope
+- Alternatively, if you have a scope and know what you're doing:
 
 ```
 CLK  - should have a frequency reading
@@ -121,4 +124,8 @@ DATA -> teensy D2
 - concurrent tp movement and mousekeys
 - polling interval delay (dropped key stokes)
 - auto-enable mouse layer on tp movement
+
+
+[pinouts]: ./pinouts/
+[datasheets]: ./datasheets/
 
