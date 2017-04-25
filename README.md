@@ -69,9 +69,17 @@ RST  - should have a 0V reading
 
 ### 1. Solder leads to trackpoint
 
-- 5 leads
-- tin pads
-- helping hand to heat leads
+- What you need:
+
+    - Thin wire (I used wire wrap 30 guage wire)
+    - Wire cutter and stripper
+    - Soldering equipment
+    - Bonus: helping hand
+
+- Cut and strip 5 leads.
+- Clean and tin the trackpoint pads to be soldered.
+- Use a helping hand to hold the leads on the tinned pads, and heat the
+  stripped leads so they solder to the pad.
 
 ### 2. Create the reset circuit (RC)
 
