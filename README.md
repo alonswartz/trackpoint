@@ -134,8 +134,12 @@ RST  - should have a 0V reading
 
 ### 4. Testing on a breadboard
 
-- usart firmware
-- connect, flash, test
+- Insert teensy in breadboard.
+- Insert leads from RC into breadboard connected to teensy pins.
+- Update firmware to enable PS2 mouse and USART (see below).
+- Flash firmware to teensy, and test.
+
+![breadboard](images/breadboard.jpg)
 
 ### 5. Make trackpoint stem hole in case
 
