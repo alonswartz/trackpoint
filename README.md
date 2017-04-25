@@ -10,14 +10,27 @@
 
 ### Q: What should I use for the trackpoint stem/stick?
 
-labret cheek piercing (16G)
+**A labret cheek piercing! (yes, I know, weird, but it's awesome!)**
 
-- cheap
-- strong
-- thin diameter
-- different lengths
-- flat bottom (gluing)
-- screw on top ball
+- Relatively cheap.
+- Super strong (surgical steel, titanium).
+- Really thin in diameter (16G is perfect for between keycaps).
+- They come in different lengths (8mm to 26mm).
+- They have a flat bottom (great for gluing to TP).
+- They have a screw on top ball, in different sizes.
+
+I ordered a few sets of different lengths and different diameters (I
+wasn't sure if 16G would be strong enough - it is), as well as different
+ball sizes from ebay for relatively cheap.
+
+My trackpoint pointer base sits flush under my 3mm switch plate, and
+with a cherry MX switch having a height 10.2mm above the switch plate,
+and about 1-2mm PBT cherry keycap on top, the 14mm stem with 3mm ball is
+kind of perfect.
+
+For extra friction on the ball, I used some sandpaper.
+
+![stem](images/stem.jpg)
 
 ### Q: How do I identify the trackpoint pinout?
 
@@ -142,9 +155,21 @@ RST  - should have a 0V reading
 
 ### 7. Test trackpoint clearance and stem length, glue stem
 
-- double side tape, test stems
-- rinse repeat
-- glue
+- What you need:
+
+    - Stem for trackpoint (labret cheek piercing 16G, different lengths).
+    - Double sided tape.
+    - Glue (loctite super glue-3).
+    - Sandpaper.
+
+- Remove red cap.
+- Stick a stem to trackpoint pointer base with double side tape.
+- Insert trackpoint with stem into hole.
+- Close case, flip keyboard, screw on stem ball, test.
+- Rinse and repeat for other stems until satisfied with length.
+
+- Remove double sided tape, glue stem.
+- Use sandpaper to roughen up the stem ball for added friction.
 
 ### 8. Solder reset circuit (RC) to teensy
 
