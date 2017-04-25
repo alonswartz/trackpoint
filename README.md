@@ -107,8 +107,17 @@ RST  - should have a 0V reading
 
 ### 3. Solder leads to reset circuit (RC)
 
-- solder tp leads to rc
-- solder rc leads for teensy
+- What you need:
+
+    - Thin wire (I used wire wrap 30 guage wire).
+    - Wire cutter and stripper.
+    - Soldering equipment.
+    - Bonus: helping hand.
+
+- Solder trackpoint leads to reset circuit.
+- Cut, strip and solder leads to reset circuit that will go to the teensy.
+
+![reset-underside](images/reset-underside.jpg)
 
 ### 4. Testing on a breadboard
 
@@ -139,12 +148,16 @@ RST  - should have a 0V reading
 
 ### 8. Solder reset circuit (RC) to teensy
 
+- Solder leads to teensy:
+
 ```
 VCC  -> teensy VCC
 GND  -> teensy GND
 CLK  -> teensy D5
 DATA -> teensy D2
 ```
+
+![inside-side-view](images/inside-side-view.jpg)
 
 ### 9. Finish up
 
