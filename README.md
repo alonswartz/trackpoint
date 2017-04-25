@@ -32,6 +32,27 @@ trackpoint, I've read it, and it most likely helped :)
 
 Pull requests are welcome, especially new pinouts.
 
+## Table of contents
+
+- [Target audience](#target-audience)
+- [FAQ](#faq)
+    - [Q: What should I use for the trackpoint stem/stick?](#q-what-should-i-use-for-the-trackpoint-stem/stick)
+    - [Q: How do I identify the trackpoint pinout?](#q-how-do-i-identify-the-trackpoint-pinout)
+    - [Q: Should I use busywait, interrupt or usart in TMK?](#q-should-i-use-busywait-interrupt-or-usart-in-tmk)
+- [What you need](#what-you-need)
+- [Steps](#steps)
+    - [1. Solder leads to trackpoint](#1-solder-leads-to-trackpoint)
+    - [2. Create the reset circuit (RC)](#2-create-the-reset-circuit-rc)
+    - [3. Solder leads to reset circuit (RC)](#3-solder-leads-to-reset-circuit-rc)
+    - [4. Testing on a breadboard](#4-testing-on-a-breadboard)
+    - [5. Make trackpoint stem hole in case](#5-make-trackpoint-stem-hole-in-case)
+    - [6. Make space for trackpoint in keyboard](#6-make-space-for-trackpoint-in-keyboard)
+    - [7. Test trackpoint clearance and stem length, glue stem](#7-test-trackpoint-clearance-and-stem-length-glue-stem)
+    - [8. Solder reset circuit (RC) to teensy](#8-solder-reset-circuit-rc-to-teensy)
+    - [9. Finish up](#9-finish-up)
+    - [10. Update tmk_keyboard firmware and flash](#10-update-tmk_keyboard-firmware-and-flash)
+- [TMK firmware changes and tweaks](#tmk-firmware-changes-and-tweaks)
+
 ## Target audience
 
 It's hard to cover every use-case, keyboard and firmware so I'm limiting
