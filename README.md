@@ -108,6 +108,28 @@ You will need to use D2 (data) and D5 (clock) on the teensy though.
 
 ## What you need
 
+- Keyboard with at least 6mm clearance between switch and base plates,
+  depending on the trackpoint module height.
+- TMK_keyboard firmware source code and development environment.
+- Teensy 2.0 (pins D2 and D5 available for USART).
+- Trackpoint module (salvaged from old thinkpad or new tp keyboard).
+- Veroboard (for reset circuit).
+- Reset circuit components (4.7k resistors x2, 100k resistor, 2.2uF capacitor).
+- Stem for trackpoint (labret cheek piercing 16G).
+- Double sided tape (for testing stem lengths before gluing).
+- Glue (stem to trackpoint, I used Loctite super glue-3)
+- Cutting knife (x-acto, nt-cutter, japanese knife, etc.).
+- Sandpaper (extra friction to stem ball, smooth veroboard cuts).
+- Thin wire (I used wire wrap 30 gauge).
+- Wire cutter and stripper.
+- PCB drill / thin rounded file (to make a 1.2mm hole).
+- Insulation tape (prevent shorts, protect trackpoint circuitry).
+- Soldering equipment.
+- Multi-meter.
+- Patience.
+
+- Bonus: extra teensy and breadboard for testing.
+
 ## Steps
 
 ### 1. Solder leads to trackpoint
