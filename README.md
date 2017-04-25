@@ -139,12 +139,25 @@ RST  - should have a 0V reading
 
 ### 5. Make trackpoint stem hole in case
 
-- 1.2mm hole
-- pcb drill, thin rounded file
+- What you need:
 
-- locate position, scratch
-- make hole
-- test diameter
+    - PCB drill / thin rounded file (to make a 1.2mm hole).
+
+- Decide where you want the trackpoint stem - I prefer using my middle
+  finger and have a row staggered keyboard, so I positioned it on the
+  cross section between U/I/K (QWERTY layout).
+
+- Locate position for trackpoint stem, and scratch or mark the space
+  available.
+
+- Remove the keycaps, make the hole (slowly and carefully), replace
+  keycaps.
+
+- Test stem diameter in hole. Should be rigid with a slight amount of
+  slack.
+
+![collage-hole](images/collage-hole.jpg)
+
 
 ### 6. Make space for trackpoint in keyboard
 
