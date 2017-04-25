@@ -1,4 +1,36 @@
-# Trackpoint: step by step
+# How to integrate a trackpoint in a mechanical keyboard
+
+This is a summary of what I needed and learned while integrating a
+trackpoint into my [custom built hand-wired split mechanical
+keyboard][blackhawk]. It took quite a lot of research and planning, so I
+thought it would be helpful to others to create this guide.
+
+![final](images/collage-final.jpg)
+
+Before starting this project, the main questions I had were:
+
+- How do I identify the pinout of my trackpoint?
+- What should I use for the trackpoint stem?
+- Will I need to ruin my keycaps to make space for the stem?
+- Can I use the same teensy to power both the keyboard and TP?
+- Can I use the TP and keyboard mousekeys concurrently?
+- Should I use busywait, interrupt or usart in TMK?
+- How do I build the reset circuit?
+- Will I have enough clearance inside the case?
+
+There is a lot of useful information scattered around the deskthority
+and geekhack forums, and TMK issues, so I'm also including all the
+[pinouts][pinouts] I found during my travels, [datasheets][datasheets],
+and TMK keyboard code tweaks. (Unfortunately I didn't take note of where
+I found the above mentioned resources, so I can't give credit where it
+is due, for that I apologize.  I'll try retrace my steps, but if you can
+let me know, I'd be most welcome).
+
+Thanks to hasu for his awesome TMK firmware, and the deskthority and
+geekhack communities - if you have posted something to do with a
+trackpoint, I've read it, and it most likely helped :)
+
+Pull requests are welcome, especially new pinouts.
 
 ## Target audience
 
@@ -251,6 +283,7 @@ DATA -> teensy D2
 - Todo: auto-enable mouse-layer on tp movement.
 
 
+[blackhawk]: http://www.alonswartz.org/keyboards/blackhawk/
 [pinouts]: ./pinouts/
 [datasheets]: ./datasheets/
 
