@@ -2,9 +2,13 @@
 
 ## Target audience
 
-- hard to cover every use-case
-- limited to hand-wired, teensy, tmk, mousekeys
-- still useful for others
+It's hard to cover every use-case, keyboard and firmware so I'm limiting
+this for folks who have a hand-wired mechanical keyboard that uses a
+teensy (2.0) with TMK_keyboard firmware, and who want to integrate a
+trackpoint for just mouse movement (and take advantage of the keyboard
+for mouse keys).
+
+That said, the information here should still be useful for others.
 
 ## FAQ
 
