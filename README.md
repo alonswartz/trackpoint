@@ -21,10 +21,11 @@ Before starting this project, the main questions I had were:
 There is a lot of useful information scattered around the deskthority
 and geekhack forums, and TMK issues, so I'm also including all the
 [pinouts][pinouts] I found during my travels, [datasheets][datasheets],
-and TMK keyboard code tweaks. (Unfortunately I didn't take note of where
-I found the above mentioned resources, so I can't give credit where it
-is due, for that I apologize.  I'll try retrace my steps, but if you can
-let me know, I'd be most welcome).
+and [TMK keyboard code tweaks](#tmk-firmware-changes-and-tweaks).
+(Unfortunately I didn't take note of where I found the above mentioned
+resources, so I can't give credit where it is due, for that I apologize.
+I'll try retrace my steps, but if you can let me know, I'd be most
+welcome).
 
 Thanks to hasu for his awesome TMK firmware, and the deskthority and
 geekhack communities - if you have posted something to do with a
