@@ -209,7 +209,10 @@ DATA -> teensy D2
 
 ### 9. Finish up
 
-- verify position, close, screw on ball
+- Verify trackpoint is positioned squarely, and close case.
+- Screw on stem ball.
+
+![top-side-view](images/top-side-view.jpg)
 
 ### 10. Update tmk_keyboard firmware and flash
 
