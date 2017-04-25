@@ -1,0 +1,12 @@
+from right to left (top to bottom)
+
+1
+2
+3
+4  CLK (INT0 - 24)
+5  VCC (22)
+6  GND (8)
+7
+8  DATA (TXD/T1 - 2)
+9
+10 RST (5)

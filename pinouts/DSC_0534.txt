@@ -1,0 +1,12 @@
+from top to bottom
+
+1
+2
+3
+4  DATA
+5  GND
+6  VCC
+7
+8  CLK
+9
+10
