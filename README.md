@@ -62,11 +62,48 @@ RST  - should have a 0V reading
 
 ### 2. Create the reset circuit (RC)
 
-- veroboard (6x5 - the 5 is for rails)
+- What you need:
 
-- 4.7k resistors x2
-- 100k resistor
-- 2.2uF capacitor
+    - 4.7k resistors x2
+    - 100k resistor
+    - 2.2uF capacitor
+    - Veroboard
+    - Cutting knife (x-acto, nt-cutter, japanese knife, etc.)
+    - Sandpaper
+    - Soldering equipment
+    - Insulation tape
+
+- Cut a piece of veroboard (6x5 - the 5 is for rails)
+
+    - Using the cutting knife, perform 5-10 cuts on both sides.
+    - Using a little pressure, snap the board on the cut.
+    - Use sandpaper to smooth out the cut edges.
+
+![veroboard](images/veroboard.jpg)
+
+- Place the components on the veroboard, and solder
+
+    - Resistors
+
+        - Resistors don't have polarity, no need to worry.
+        - Bend component legs, insert into veroboard.
+        - On the back-side, slightly bend legs so components stay in position.
+        - Use insulation tape to hold resistors in position if needed.
+        - Snip legs (leaving about 3-5mm) and solder.
+        - Snip the protruding legs for extra clearance.
+
+    - Capacitor
+
+        - Capacitors have polarity, usually marked with a minus (negative).
+        - Positive leg must go in the VCC rail.
+        - Insert capacitor legs partially, so it can be bent off the
+          veroboard for clearance inside the keyboard case.
+        - On the back-side, bend legs slightly so it stays in position.
+        - Use insulation tape to hold capacitor in position.
+        - Snip legs and bend negative over to 100k resistor pad, and solder.
+        - Snip the protruding leg for extra clearance.
+
+![collage-reset](images/collage-reset.jpg)
 
 ### 3. Solder leads to reset circuit (RC)
 
