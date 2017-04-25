@@ -63,6 +63,13 @@ DATA - should have a 5V reading
 RST  - should have a 0V reading
 ```
 
+### Q: Should I use busywait, interrupt or usart in TMK?
+
+As far as I know, USART is the recommended implementation, as it uses
+hardware for PS/2 signal receive.
+
+You will need to use D2 (data) and D5 (clock) on the teensy though.
+
 ## What you need
 
 ## Steps
@@ -224,17 +231,29 @@ DATA -> teensy D2
 
 ### 10. Update tmk_keyboard firmware and flash
 
-- usart update
+- What you need:
+
+    - TMK keyboard firmware and development environment.
+
+- Update firmware with PS2 mouse and USART support (see below).
+- Plug in keyboard, flash and test.
 
 ## TMK firmware changes and tweaks
 
-- usart support diff
-- mousekeys reference
-- concurrent tp movement and mousekeys
-- polling interval delay (dropped key stokes)
-- auto-enable mouse layer on tp movement
+- Configure PS2 mouse and USART support: [diff][tmk_usart]
+- Configure mousekeys: [keycodes][tmk_keycodes], [keymap][tmk_keymap]
+- Enable concurrent trackpoint movement and mousekeys: [diff][tmk_concurrent]
+- Trackpoint polling interval delay for dropped key strokes: [diff1][tmk_poll1], [diff2][tmk_poll2]
+- Todo: auto-enable mouse-layer on tp movement.
 
 
 [pinouts]: ./pinouts/
 [datasheets]: ./datasheets/
+
+[tmk_usart]: https://github.com/alonswartz/tmk_keyboard/commit/f20a6f8fed823e5406f783b51db96c07ee14f079
+[tmk_keycodes]: https://github.com/alonswartz/tmk_keyboard/blob/blackhawk/tmk_core/doc/keycode.txt#L212
+[tmk_keymap]: https://github.com/alonswartz/tmk_keyboard/blob/1de1336fe06905893340df78ce43e9cafdbf32c9/keyboard/blackhawk/keymap_default.c#L23
+[tmk_concurrent]: https://github.com/alonswartz/tmk_keyboard/commit/e71670a120b0b0f746b13f593df0c988f03d277c
+[tmk_poll1]: https://github.com/alonswartz/tmk_keyboard/commit/a5c7dc87bb9f2872483f40482060a645e00e7557
+[tmk_poll2]: https://github.com/alonswartz/tmk_keyboard/commit/1de1336fe06905893340df78ce43e9cafdbf32c9
 
