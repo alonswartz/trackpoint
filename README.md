@@ -158,13 +158,19 @@ RST  - should have a 0V reading
 
 ![collage-hole](images/collage-hole.jpg)
 
-
 ### 6. Make space for trackpoint in keyboard
 
-- insulation tape (shorts, protection)
-- rewiring rows/columns for clearance
-- trim switch legs
-- relocate d2 d5
+- What you need:
+
+    - Insulation tape.
+    - Wire cutter.
+
+- Add insulation tape to trackpoint to prevent shorts.
+- Rewire diodes / column wires if needed for trackpoint clearance.
+- Trim switch legs if needed for trackpoint clearance.
+- Relocate D2 and D5 pins if they are already being used.
+
+![collage-rewiring](images/collage-rewiring.jpg)
 
 ### 7. Test trackpoint clearance and stem length, glue stem
 
